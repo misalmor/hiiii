@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Habit Tracker</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+      border-radius: 8px;
+    }
+    th {
+      background-color: #d9d2f4;
+      font-weight: bold;
+    }
+    .habit-checkbox {
+      width: 20px;
+      height: 20px;
+    }
+    .exercise, .meditate {
+      background-color: #e6b8e6;
+    }
+    .read, .learn, .write {
+      background-color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Habit Tracker - Weekly</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Habit</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="exercise">
+        <td><strong>Exercise</strong></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+      </tr>
+      <tr class="read">
+        <td><strong>Read</strong></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+      </tr>
+      <tr class="meditate">
+        <td><strong>Meditate</strong></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+      </tr>
+      <tr class="learn">
+        <td><strong>Learn</strong></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+      </tr>
+      <tr class="write">
+        <td><strong>Write</strong></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+        <td><input type="checkbox" class="habit-checkbox"></td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
